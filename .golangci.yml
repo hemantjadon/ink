@@ -1,0 +1,11 @@
+linters:
+  enable:
+    - gofmt
+    - gci
+
+linters-settings:
+  gci:
+    local-prefixes: github.com/hemantjadon/ink
+
+  gofmt:
+    simplify: true
